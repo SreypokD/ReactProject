@@ -1,8 +1,10 @@
 import React from 'react'
 import './Home.css'
+import Card from '../cardlist/Card'
 const Home = () => {
     return (
-        <section className="home-wrapper flexCenter">
+       <>
+         <section className="home-wrapper flexCenter">
             <div className="home-container flexCenter">
                 <div className="home-left">
                     <h1>Computer All model</h1>
@@ -17,6 +19,8 @@ const Home = () => {
                 </div>
             </div>
         </section>
+        <Card/>
+       </>
     )
 }
 

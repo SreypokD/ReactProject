@@ -1,0 +1,68 @@
+{
+    "computers": [
+      {
+        "name": "Lenovo ThinkPad X1 Carbon",
+        "model": "X1 Carbon",
+        "size": "14 inches",
+        "capacity": "512GB",
+        "price": 1799.99,
+        "image" : "https://www.notebookcheck.net/typo3temp/_processed_/1/5/csm_case1_02_fd517f2918.jpg"
+      },
+      {
+        "name": "Apple MacBook Pro",
+        "model": "MacBook Pro",
+        "size": "16 inches",
+        "capacity": "1TB",
+        "price": 2399.99,
+        "image": "https://www.ione.com.kh/wp-content/uploads/2021/11/2-2.jpg"
+      },
+      {
+        "name": "HP Spectre x360",
+        "model": "Spectre x360",
+        "size": "13.3 inches",
+        "capacity": "256GB",
+        "price": 1299.99,
+        "image": "https://www.tejar.pk/media/catalog/product/cache/3/image/9df78eab33525d08d6e5fb8d27136e95/h/p/hp_spectre_x360_convertible_laptop_-_13t-aw200_2-_tejar.jpg"
+      },
+      {
+        "name": "Dell XPS 13",
+        "model": "XPS 13",
+        "size": "13.3 inches",
+        "capacity": "512GB",
+        "price": 1499.99,
+        "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/xps-notebooks/xps-13-9320/media-gallery/xs9320nt-xnb-shot-5-1-gy.psd?fmt=pjpg&pscan=auto&scl=1&wid=3827&hei=3863&qlt=100,1&resMode=sharp2&size=3827,3863&chrss=full&imwidth=5000"
+      },
+      {
+        "name": "Asus ROG Zephyrus G14",
+        "model": "Zephyrus G14",
+        "size": "14 inches",
+        "capacity": "1TB",
+        "price": 1699.99,
+        "image": "https://www.tradeinn.com/f/13869/138690212/asus-rog-zephyrus-g14-ga401qc-hz018-14-r7-5800hs-16gb-1tb-ssd-rtx-3050-gaming-laptop.jpg"
+      },
+      {
+        "name": "Microsoft Surface Laptop 4",
+        "model": "Surface Laptop 4",
+        "size": "15 inches",
+        "capacity": "512GB",
+        "price": 1699.99,
+        "image": "https://cdn-amz.woka.io/images/I/71p-M3sPhhL.jpg"
+      },
+      {
+        "name": "Acer Swift 3",
+        "model": "Swift 3",
+        "size": "14 inches",
+        "capacity": "256GB",
+        "price": 799.99,
+        "image": "https://bcscomputer.net/userfiles/product/1024x768/c1ed6faf030dedee27e5dfae53b43035.jpg"
+      },
+      {
+        "name": "Razer Blade 15",
+        "model": "Blade 15",
+        "size": "15.6 inches",
+        "capacity": "1TB",
+        "price": 2099.99,
+        "image": "https://www.notebookcheck.net/uploads/tx_nbc2/4zu3_Razer_Blade_15_Advanced_Model_2020.jpg"
+      }
+    ]
+  }
