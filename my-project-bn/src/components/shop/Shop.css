@@ -1,0 +1,35 @@
+.product-contain{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.card_container{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 7px;
+}
+.card_container:hover{
+    scale: 1.005;
+    transition: 1s;
+    cursor: pointer;
+}
+.contain-img img{
+    width: 270px;
+    height: 30vh;
+}
+.cart-fav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.favorite{
+    display: flex;
+    align-items: center;
+}
+.cart button{
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    border-radius: 60px;
+}
