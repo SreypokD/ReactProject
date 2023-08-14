@@ -13,15 +13,19 @@ const Card = () => {
          <SliderButton />
          <div className="card-container flexCenter">
           {data.computers.map((computer, index) => (
-            <SwiperSlide key={index} style={{ width: '300px' }}  className="card-item">
-              <img src={computer.image} alt="" className="card-img" />
-              <h3>{computer.name}</h3>
-              <p>Model: {computer.model}</p>
-              <p>Size: {computer.size}</p>
-              <p>Capacity: {computer.capacity}</p>
-              <p>
-                Price: <strong className="price">${computer.price}</strong>
-              </p>
+            <SwiperSlide key={index} style={{ width: '300px' }}  className="card-item ">
+              <div className="contain-img">
+                <img src={computer.image} alt="" className="card-img" />
+              </div>
+              <div className="card-text">
+                <h3>{computer.name}</h3>
+                <p>Model: {computer.model}</p>
+                <p>Size: {computer.size}</p>
+                <p>Capacity: {computer.capacity}</p>
+                <p>
+                  Price: <strong className="price">${computer.price}</strong>
+                </p>
+              </div>
             </SwiperSlide>
           ))}
         </div>
@@ -55,3 +59,4 @@ const SliderButton = () => {
   };
   
 export default Card;
+

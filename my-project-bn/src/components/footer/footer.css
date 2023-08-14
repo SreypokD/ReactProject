@@ -1,0 +1,10 @@
+
+.h-footer{
+    background: #000000;
+    height: 40vh;
+    color: whitesmoke;
+}
+.item{
+    display: flex;
+    align-items: center;
+}
