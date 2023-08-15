@@ -1,23 +1,28 @@
+
 .product-contain{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     
 }
+.product-contain p{
+    font-size: 15px;
+}
 
 .card_container{
     border: 1px solid black;
-    margin: 5px;
+    margin: 17px;
     padding: 7px;
+
 }
 .card_container:hover{
-    scale: 1.005;
-    transition: 1s;
+    scale: 1.009;
+    transition: 0.5s;
     cursor: pointer;
 }
 .contain-img img{
-    width: 270px;
-    height: 30vh;
+    width: 250px;
+    height: 25vh;
 }
 .cart-fav{
     display: flex;
@@ -32,4 +37,24 @@
     padding: 5px;
     color: rgb(0, 0, 0);
     border-radius: 60px;
+}
+.h-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.h-search input{
+    width: 40%;
+
+    font-family: 'Poppins', sans-serif;
+
+
+}
+.h-search i {
+    border: 1px solid black;
+    padding: 9px;
+    margin-left: -3%;
+    color: #c60202;
+
 }

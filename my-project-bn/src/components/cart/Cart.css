@@ -1,0 +1,38 @@
+
+.no-product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+}
+
+.cart-container h1 {
+    color: red;
+}
+
+.contain-each-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+}
+.calculator{
+    display: flex;
+    align-items: center;
+}
+.plus ,.minus {
+     margin: 10px;
+}
+button .pluss{
+    color: rgb(0, 0, 0);
+}
+button .minuss{
+    color: red;
+}
+#total-price{
+    text-align: center;
+    color: red;
+}

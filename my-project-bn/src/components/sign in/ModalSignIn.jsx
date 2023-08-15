@@ -5,13 +5,13 @@ function ModalSignIn({ open, children, onClose }) {
     // style modal
     const ModalStyle = {
         position: 'fixed',
-        top: '50%',
-        left: '50%',
+        left: '63%',
         backgroundColor: "#fff",
         transform: 'transtlate(-50%, -50%)',
-        padding: '50px',
+        padding: '30px',
         zIndex: 1000,
         top:100,
+        borderRadius: '10px'
     }
     // overlay syle 
     const OverLayStyle = {
@@ -20,7 +20,7 @@ function ModalSignIn({ open, children, onClose }) {
         left: 0,
         right: 0,
         bottom: 0,
-        backgroundColor: 'rgba(0, 0, 0, .5)',
+        backgroundColor: 'rgba(0, 0, 0, .7)',
         zIndex: 1000
 
     }
@@ -28,6 +28,7 @@ function ModalSignIn({ open, children, onClose }) {
         <>
             <div style={OverLayStyle} />
             <div style={ModalStyle}>
+                <i id='cancel' className="material-icons" onClick={onClose}>highlight_off</i>
                 {children}
                 <form action="">
                     <div className="email">
@@ -39,7 +40,6 @@ function ModalSignIn({ open, children, onClose }) {
                         <input type="password" />
                     </div>
                     <div className="btn">
-                        <button className='btn-cancel' onClick={onClose}>Cancel</button>
                         <button className='button' >Sign in</button>
                     </div>
                 </form>

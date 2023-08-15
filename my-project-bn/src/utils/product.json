@@ -1,101 +1,142 @@
 {
     "products": [
         {
+          "id":1,
           "name": "Apple MacBook Pro",
           "model": "M2",
           "size": "13.3 inches",
           "capacity": "256GB",
-          "price": "$1,299",
+          "price": 1299,
           "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-mbp16-silver-m1-2021_AV1?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1643239769000"
         },
         {
+          "id":2,
           "name": "Dell XPS 13",
           "model": "9310",
           "size": "13.3 inches",
           "capacity": "512GB",
-          "price": "$1,199",
+          "price": 1199,
           "image": "https://m.media-amazon.com/images/I/91MXLpouhoL.jpg"
         },
         
         {
+          "id":3,
           "name": "Lenovo Yoga 9i",
           "model": "7",
           "size": "14 inches",
           "capacity": "1TB",
-          "price": "$1,599",
+          "price": 1599,
           "image": "https://www.trustedreviews.com/wp-content/uploads/sites/54/2022/01/Lenovo-Yoga-9i-convertable-laptop.jpg"
         },
         {
+          "id":4,
           "name": "MS Surface Laptop 4",
           "model": "13.5 inches",
           "size": "13.5 inches",
           "capacity": "512GB",
-          "price": "$1,099",
+          "price": 1099,
           "image": "https://media-cdn.bnn.in.th/175553/Microsoft-LAPTOP-Studio-i5-16-256-GPU-Platinum-1-square_medium.jpg"
         },
         {
+          "id":5,
           "name": "Google Pixelbook Go",
           "model": "i5",
           "size": "13.3 inches",
           "capacity": "64GB",
-          "price": "$649",
+          "price": 649,
           "image": "https://5.imimg.com/data5/SELLER/Default/2021/8/YE/LY/KA/11078779/google-pixel-book-go.jpg"
         },
         {
+          "id":6,
           "name": "Asus ZenBook Duo 14",
           "model": "UX482",
           "size": "14 inches",
           "capacity": "512GB",
-          "price": "$1,399",
+          "price": 1399,
           "image": "https://cdnx.jumpseller.com/gesfrota-s-a/image/25435954/resize/540/540?1656430956"
         },
         {
+          "id":7,
           "name": "Razer Blade 14",
           "model": "2023",
           "size": "14 inches",
           "capacity": "512GB",
-          "price": "$1,999",
+          "price": 1999,
           "image": "https://www.bhphotovideo.com/images/images2500x2500/razer_rz09_0427pea3_r3u1_razer_blade_14_p8_nt_win_11_qhd_165hz_r9_6900hx_16gb_1687744.jpg"
         },
         {
+          "id":8,
           "name": "Acer Predator 500 SE",
           "model": "2023",
           "size": "16 inches",
           "capacity": "1TB",
-          "price": "$2,499",
+          "price": 2499,
           "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Acer_Predator_Triton_500_SE_header.jpg"
         },
         {
+          "id":9,
           "name": "MSI GS66 Stealth",
           "model": "2023",
           "size": "15.6 inches",
           "capacity": "1TB",
-          "price": "$2,599",
+          "price": 2599,
           "image": "https://m.media-amazon.com/images/I/61N73RM-rXL.jpg"
         },
         {
+          "id":10,
           "name": "HP Omen 17",
           "model": "2023",
           "size": "17.3 inches",
           "capacity": "2TB",
-          "price": "$2,799",
+          "price": 2799,
           "image": "https://i5.walmartimages.com/asr/1db79c8f-8faf-4753-879a-93f03312ca3b.17d8d15bbbe93c5f3ce52f7883b18a0a.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
         },
         {
+          "id":11,
           "name": "Lenovo Legion 7",
           "model": "2023",
           "size": "16 inches",
           "capacity": "2TB",
-          "price": "$2,999",
+          "price": 2999,
           "image": "https://p2-ofp.static.pub/fes/cms/2022/04/19/cxv47wpzhjluoq8pe243eoa77wdfx2147295.png"
         },
         {
+          "id":12,
           "name": "Alienware m17 R5",
           "model": "2023",
           "size": "17.3 inches",
           "capacity": "3TB",
-          "price": "$3,499",
+          "price": 3499,
           "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/alienware-notebooks/alienware-m17-r5-ryzen-edition/media-gallery/notebook-alienware-m17-r5-gallery-5.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=619&qlt=100,1&resMode=sharp2&size=619,402&chrss=full"
+        },
+        {
+          "id":13,  
+          "name": "Razer Blade 15",
+          "model": "Blade 15",
+          "size": "15.6 inches",
+          "capacity": "1TB",
+          "price": 2099.99,
+          "image": "https://www.notebookcheck.net/uploads/tx_nbc2/4zu3_Razer_Blade_15_Advanced_Model_2020.jpg"
+        },
+        {
+          "id": 14,
+          "name": "Microsoft Surface Laptop 4",
+          "model": "Surface Laptop 4",
+          "size": "15 inches",
+          "capacity": "512GB",
+          "price": 1699.99,
+          "image": "https://cdn-amz.woka.io/images/I/71p-M3sPhhL.jpg"
+        },
+        {
+          "id": 15,
+          "name": "Acer Swift 3",
+          "model": "Swift 3",
+          "size": "14 inches",
+          "capacity": "256GB",
+          "price": 799.99,
+          "image": "https://bcscomputer.net/userfiles/product/1024x768/c1ed6faf030dedee27e5dfae53b43035.jpg"
         }
+  
+  
       ]
 }

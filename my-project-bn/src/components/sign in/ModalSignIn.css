@@ -7,3 +7,12 @@ input{
 .btn{
     padding: 15px;
 }
+#cancel{
+    margin-left: 85%;
+    color: red;
+    cursor: pointer;
+}
+.btn button{
+    margin-left: 20%;
+    width: 60%;
+}
